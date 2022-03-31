@@ -168,10 +168,18 @@ body {
   }
   .header .nav {
     display: grid;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
     row-gap: 10px;
     margin-bottom: 50px;
+    background-color: rgba(0,200,0,.15);
+    padding: 5px;
     text-align: left;
+  }
+  .header span {
+    font-size: 1.25em;
+  }
+  .header span a {
+    display: block;
   }
   .row {
     row-gap: 50px;
@@ -183,8 +191,5 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 25px;
-  }
-  .section {
-
   }
 }
