@@ -101,11 +101,11 @@ body {
   border-radius: 5px;
   transition: transform .5s;
 }
-.section img:hover {
-  transform: scale(1.5);
-  transform-origin: bottom center;
-}
 @media only screen and (min-width: 801px) {
+  .section img:hover {
+    transform: scale(1.5);
+    transform-origin: bottom center;
+  }
   .section:first-child img {
     transform-origin: bottom left;
   }
